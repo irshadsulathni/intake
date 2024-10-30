@@ -7,6 +7,9 @@ fs.readFile('sample.txt','utf-8',(err,data)=>{
     
 })
 
+
+
+
 fs.writeFile('sample.txt','hello world',(err)=>{
     if (err) {
         throw err
