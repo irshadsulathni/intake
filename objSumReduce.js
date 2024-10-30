@@ -9,6 +9,7 @@ let sum = arr.reduce((acc,val)=>{
         return acc + val.reduce((subAcc, subVal) => subAcc + subVal.ab, 0);
     }
     return acc + val.ab
+    
 },0)
 
 console.log(sum)
