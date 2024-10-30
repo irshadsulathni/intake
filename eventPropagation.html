@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="child">
+            <button>Please click</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('parent').addEventListener('click',function(event){
+            alert('clicked parent')
+        },true)
+        document.getElementById('child').addEventListener('click',function(event){
+            alert('clicked child')
+        })
+    </script>
+</body>
+
+</html>
+
+<!-- Event propagation is a fundmental concept in the DOM that describes how events travel through the hierarchy of HTMl elements when an event occurs. 
+
+There are two main pahse of event propagation:-
+
+1 Event Capturing
+2 Event Bubbling -->
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+   <div id="parent">
+    <button>Button 1</button>
+    <button>Button 2</button>
+   </div>
+
+   <script>
+    document.getElementById('parent').addEventListener('click',function(event){
+        if(event.target.tagName === 'BUTTON'){
+            alert('Clicked ' + event.target.innerHTML)
+        }
+    })
+   </script>
+
+</body>
+</html>
+
