@@ -12,4 +12,6 @@ let sum = arr.reduce((acc,val)=>{
 },0)
 
 
+
+
 console.log(sum)
