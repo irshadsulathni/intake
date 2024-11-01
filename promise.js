@@ -7,11 +7,6 @@ const promise1 = new Promise((resolve,reject)=>{
             reject('the promise is rejected')
         }
      }, 2000);
-
-
-
-
-     
 })
 
 promise1.then((result)=>{
