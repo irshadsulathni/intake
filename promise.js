@@ -8,7 +8,6 @@ const promise1 = new Promise((resolve,reject)=>{
         }
      }, 2000);
 })
-
 promise1.then((result)=>{
     console.log(result);
 }).catch((reject)=>{
