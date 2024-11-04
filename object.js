@@ -8,12 +8,11 @@ const people = [
 
   let maxAge = people[0]
 
-  for(let i = 1; i < people.length; i++){
-    if(people[i].age < maxAge.age){
-        maxAge = people[i]
+  for(let i = 0; i < people.length ; i++){
+    if (people[i].age > maxAge.age) {
+      maxAge = people[i]
     }
-        
   }
 
-  console.log(maxAge.name);
+  console.log(`the greatesst age person is ${maxAge.name} , and his age is ${maxAge.age}`);
   
