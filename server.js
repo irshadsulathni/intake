@@ -134,3 +134,24 @@
 // const me = intro.bind(person)
 
 // me('hi','calicut')
+
+const express = require('express')
+
+const app = express()
+
+app.get('/sum',(req,res)=>{
+    const { num1 , num2 } = req.query
+    const number1 = parseFloat(num1)
+    const number2 = parseFloat(num2)
+
+    const total = number1 + number2
+
+    res.send(`the total : ${total}`)
+})
+
+const port = 3000
+
+app.listen(port,()=>{
+    console.log(`http://localhost:${port}`);
+    
+})
