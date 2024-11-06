@@ -8,8 +8,11 @@ function person(name,age) {
     }
 }
 
+
 const createUser = person('Adhil',25)
 createUser.greet()
+
+
 
 
 // // factory funcgion using call apply bind
