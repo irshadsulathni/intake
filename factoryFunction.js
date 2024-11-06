@@ -8,8 +8,6 @@ function person(name,age) {
     }
 }
 
-
-
 const createUser = person('Adhil',25)
 createUser.greet()
 
