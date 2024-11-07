@@ -3,7 +3,6 @@ function testing(place){
 }
 
 const person1 = { name:'Ameen', age:25 }
-
 testing.call(person1,'Malappuram')
 
 const person2 = {name : 'Irshad ', age:22}
