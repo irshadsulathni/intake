@@ -11,5 +11,6 @@ testing.apply(person2,['Thrissur'])
 
 const person3 = {name:'Fayeem',age:24}
 
+
 const binding = testing.bind(person3,'Kannur')
 binding()
