@@ -1,6 +1,8 @@
 let arr = [{ab:5},{ab:10},[{ab:20}]]
 
 let flat = arr.flat().map((item) => item.ab)
+console.log('flat',flat);
+
 console.log(Math.min(...flat))
 
 let sum = arr.reduce((acc,val)=>{
