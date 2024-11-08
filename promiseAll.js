@@ -8,8 +8,6 @@ const p3 = new Promise((resolve,reject)=>{
     setTimeout(()=>{ reject('p3 reject') },500)
 })
 
-
-
 const allPromise = Promise.any([p1,p2,p3])
 
 allPromise.then((data)=>{
