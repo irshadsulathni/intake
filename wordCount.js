@@ -9,10 +9,6 @@ function count(str) {
     }
     return count + 1
 }
-
-
-
-
 console.log(count(str));
 
 
