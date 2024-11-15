@@ -7,6 +7,9 @@ function count(str) {
             count++
         }
     }
+
+
+    
     return count + 1
 }
 console.log(count(str));
