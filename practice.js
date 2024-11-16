@@ -25,8 +25,6 @@ let max = arr.reduce((acc,val)=>{
     }else if( val > second && val !== acc){
         second = val
     }
-
-    
     return acc
 })
 
