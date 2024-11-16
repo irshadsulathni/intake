@@ -21,3 +21,21 @@
     
 // })
 
+const fs = require('fs')
+
+const date = new Date().toDateString()
+
+fs.writeFile('date.txt',date,(err)=>{
+    if (err) {
+        console.log('cant write ',err);
+    }
+    console.log('success'); 
+})
+
+fs.unlink('date.txt',(err)=>{
+    if (err) {
+        console.log('facing some issues',err);
+    }
+    console.log('deleted');
+    
+})
