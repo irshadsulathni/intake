@@ -29,7 +29,4 @@ let max = arr.reduce((acc,val)=>{
 })
 
 
-
-
-
 console.log(second)
