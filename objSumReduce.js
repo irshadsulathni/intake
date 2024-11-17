@@ -1,4 +1,4 @@
-let arr = [{ab:5},{ab:10},[{ab:20}]]
+let arr = [{ab:5},{ab:10},[{ae:20}]]
 
 let flat = arr.flat().map((item) => item.ab)
 
@@ -10,5 +10,7 @@ let sum = arr.reduce((acc,val)=>{
     return acc + val.ab
 
 },0)
+
+
 
 console.log(sum)

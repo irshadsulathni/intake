@@ -3,7 +3,7 @@ function person(name,age) {
         name:name,
         age:age,
         greet(){
-            console.warn(`Hello, my name is ${name} i am ${age} years old` );
+            console.log(`Hello, my name is ${name} i am ${age} years old` );
         }
     }
 }

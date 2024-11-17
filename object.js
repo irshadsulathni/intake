@@ -6,16 +6,17 @@ const people = [
     { name: "Edward", age: 39 }
   ];
 
-  console.log(Object.values(people.age));
-
-  let maxAge = people[0]
-
-  for(let i = 0; i < people.length ; i++){
-    if (people[i].age > maxAge.age) {
-      maxAge = people[i]
+function aged(obj) {
+  let aged = obj[0]
+  for(let i = 0; i< obj.length; i++){
+    if(obj[i].age > aged.age ){
+      aged = obj[i]
     }
   }
+  return `the oldest person is ${aged.name} and the age is: ${aged.age}`
+}
 
+console.log(aged(people));
 
 
 
